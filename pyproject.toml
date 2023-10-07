@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Run beets commands on a schedule"
 authors = ["alexrjones"]
 readme = "README.md"
+packages = [
+    { include = "beetsplug" },
+    { include = "beetsplug/**/*.py" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
