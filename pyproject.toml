@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "beets-crond"
+version = "0.1.0"
+description = "Run beets commands on a schedule"
+authors = ["alexrjones"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beets = "^1.6.0"
+cron-converter = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
